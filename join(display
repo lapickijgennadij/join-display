@@ -1,0 +1,6 @@
+    print("Welcome to Hangman!")
+    print("Try to guess the word.")
+    print(' '.join(display))
+
+    while guesses_left > 0:
+        guess = input(f"Guess a letter ({guesses_left} guesses left): ").lower()
